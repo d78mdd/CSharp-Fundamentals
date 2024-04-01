@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic Syntax, Conditional Statements and Loops - Lab", "Basic Syntax, Conditional Statements and Loops - Lab", "{3F85CCFF-718E-462A-972E-91B048A8774B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Student Information", "01. Student Information\01. Student Information.csproj", "{CDA00AE7-9BED-4500-A47C-740FAC1D00B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Passed or Failed", "Basic Syntax, Conditional Statements and Loops - Lab\03. Passed or Failed\03. Passed or Failed.csproj", "{F7329D5B-85A7-431B-94CF-7FE51EAB5C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Passed", "Basic Syntax, Conditional Statements and Loops - Lab\02. Passed\02. Passed.csproj", "{FD9578CC-3598-4E95-B34C-0A1D498934C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Student Information", "Basic Syntax, Conditional Statements and Loops - Lab\01. Student Information\01. Student Information.csproj", "{23C7DBC7-6551-4FEE-B000-CE2CFE08AC0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CDA00AE7-9BED-4500-A47C-740FAC1D00B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDA00AE7-9BED-4500-A47C-740FAC1D00B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDA00AE7-9BED-4500-A47C-740FAC1D00B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDA00AE7-9BED-4500-A47C-740FAC1D00B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7329D5B-85A7-431B-94CF-7FE51EAB5C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7329D5B-85A7-431B-94CF-7FE51EAB5C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7329D5B-85A7-431B-94CF-7FE51EAB5C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7329D5B-85A7-431B-94CF-7FE51EAB5C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9578CC-3598-4E95-B34C-0A1D498934C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9578CC-3598-4E95-B34C-0A1D498934C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9578CC-3598-4E95-B34C-0A1D498934C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9578CC-3598-4E95-B34C-0A1D498934C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C7DBC7-6551-4FEE-B000-CE2CFE08AC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C7DBC7-6551-4FEE-B000-CE2CFE08AC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C7DBC7-6551-4FEE-B000-CE2CFE08AC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C7DBC7-6551-4FEE-B000-CE2CFE08AC0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CDA00AE7-9BED-4500-A47C-740FAC1D00B0} = {3F85CCFF-718E-462A-972E-91B048A8774B}
+		{F7329D5B-85A7-431B-94CF-7FE51EAB5C31} = {3F85CCFF-718E-462A-972E-91B048A8774B}
+		{FD9578CC-3598-4E95-B34C-0A1D498934C4} = {3F85CCFF-718E-462A-972E-91B048A8774B}
+		{23C7DBC7-6551-4FEE-B000-CE2CFE08AC0F} = {3F85CCFF-718E-462A-972E-91B048A8774B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4CA4AC4-3C2F-4739-B58A-1ABBDE4D3BC7}
