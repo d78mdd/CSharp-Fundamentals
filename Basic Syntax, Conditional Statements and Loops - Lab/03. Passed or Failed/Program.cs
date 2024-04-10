@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _03.Passed_or_Failed
 {
@@ -10,6 +6,16 @@ namespace _03.Passed_or_Failed
     {
         static void Main(string[] args)
         {
+            double num = double.Parse(Console.ReadLine());
+
+            if (num > 2.99)
+            {
+                Console.WriteLine("Passed!");
+            }
+            else
+            {
+                Console.WriteLine("Failed!");
+            }    
         }
     }
 }
