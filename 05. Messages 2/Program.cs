@@ -27,7 +27,7 @@ namespace _05.Messages_2
                     case 5:
                     case 6:
                     case 7:
-                        c = (char)( 3 * (usedDigit-2) + 97 + (count-1) );
+                        c = (char)(3 * (usedDigit - 2) + 97 + (count - 1));
                         break;
                     case 8:
                     case 9:
