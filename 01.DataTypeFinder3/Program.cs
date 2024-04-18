@@ -52,7 +52,7 @@ namespace _01.DataTypeFinder3
                 }
 
 
-                bool seemsNumber =
+                bool hasOnlyNumberSymbols =
                     digitsCount + minusesCount + dotsCount == input.Length;
 
                 bool hasInitialMinus =
@@ -69,9 +69,9 @@ namespace _01.DataTypeFinder3
                     dotsCount == 0;
 
 
-                bool seemsNumber2 =
+                bool seemsNumber =
                     (hasInitialMinus || hasNoMinus) &&
-                    seemsNumber;
+                    hasOnlyNumberSymbols;
 
 
                 bool isEmpty =
@@ -89,7 +89,7 @@ namespace _01.DataTypeFinder3
                 {
                     type = "character";
                 }
-                else if (seemsNumber2)
+                else if (seemsNumber)
                 {
                     if (hasValidDot)
                     {
